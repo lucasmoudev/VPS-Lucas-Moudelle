@@ -5,9 +5,7 @@
     display: grid;
     grid-template-rows: auto 1fr auto;
     background-color: #080E43;
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 1600 800'%3E%3Cg %3E%3Cpolygon fill='%23091557' points='1600 160 0 460 0 350 1600 50'/%3E%3Cpolygon fill='%23091e6b' points='1600 260 0 560 0 450 1600 150'/%3E%3Cpolygon fill='%23092a7f' points='1600 360 0 660 0 550 1600 250'/%3E%3Cpolygon fill='%23083794' points='1600 460 0 760 0 650 1600 350'/%3E%3Cpolygon fill='%230747AA' points='1600 800 0 800 0 750 1600 450'/%3E%3C/g%3E%3C/svg%3E");
-    background-attachment: fixed;
-    background-size: cover;
+    background-image: url('root\images\wave-vertical.svg');
     color: white;
 }
 
@@ -255,6 +253,7 @@ h1, p {
         display: flex;
         list-style: none;
         height: 100%;
+        margin: 0;
     }
 
     .main-nav__bar li {
@@ -288,14 +287,15 @@ h1, p {
         flex-wrap: nowrap;
         flex-direction: row;
         justify-content: center;
-        margin: 0 1%;
+        margin: 1% 4%;
     }
     
     .registro__text {
-        width: 20vw;
+        width: 95%;
         height: 2.3em;
         text-decoration: none;
         font-family: Roboto, sans-serif;
+        margin-right: 0.7em;
     }
     
     .registro__submit {
@@ -320,6 +320,8 @@ h1, p {
     
     .titulos {
         font-size: 2em;
+        font-weight: 600;
+        line-height: 2em;
     }
     
     .subtitulos {
@@ -382,48 +384,24 @@ h1, p {
         grid-template-rows: 30% 30%;
     }
 
-    .soporte-form {
-        display: grid;
-        grid-template-columns: 30% 30%;
-        grid-template-rows: auto auto auto auto auto;
-        grid-gap: 0;
-        grid-template-areas: "nombre mail"
-        "text text"
-        "opciones opciones"
-        "label check"
-        "submit submit"
-    }
+
 
     .contacto-nombre {
-        max-width: 100%;
-        grid-area: nombre;
+        width: 20vw;
     }
     
     .contacto-mail {
-        max-width: 100%;
-        grid-area: mail;
+
+        width: 20vw;
     }
 
     .contacto-text {
-        grid-area: text;
-        width: 100%;
+        width: 50vw;
         height: 10em;
     }
-    
-    #opciones {
-        grid-area: opciones;
-    }
 
-    #label-mail {
-        grid-area: label;
-    }
-
-    #checkbox-mail {
-        grid-area: check;
-    }
-
-    .submit {
-        grid-area: submit;
+    .label-mail {
+        font-size: small;
     }
 
     .soporte-div-img img {
