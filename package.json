@@ -1,0 +1,21 @@
+{
+  "name": "root",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile:sass": "sass --watch scss/estilo.scss css/estilo2.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lucasmoudev/VPS-Lucas-Moudelle.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lucasmoudev/VPS-Lucas-Moudelle/issues"
+  },
+  "homepage": "https://github.com/lucasmoudev/VPS-Lucas-Moudelle#readme"
+}

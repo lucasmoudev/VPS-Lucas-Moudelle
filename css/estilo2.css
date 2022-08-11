@@ -250,27 +250,23 @@ h1, p {
         width: auto;
         display: flex;
         flex-direction: row;
-    }
-
-    .main-nav__bar {
+      }
+    .main-nav .main-nav__bar {
         display: flex;
         list-style: none;
         height: 100%;
         margin: 0;
-    }
-
-    .main-nav__bar li {
+      }
+    .main-nav .main-nav__bar .main-nav__bar li {
         margin: 0 2em;
         line-height: 10px;
-    }
-    
-
-    .main-nav__bar li a {
+      }
+    .main-nav .main-nav__bar .main-nav__bar li .main-nav__bar li a {
         text-decoration: none;
         font-size: 1em;
         font-weight: 500;
         color: white;
-    }
+      }
 
     h1 {
         font-size: xx-large;
