@@ -1,1 +1,43 @@
 @import "navbar";
+
+$titulos: (
+    size: 2em,
+    fontWeight: 600,
+    lineHeight: 2em,
+);
+
+.submit {
+    width: 10em;
+    height: 2.3em;
+    font-family: Roboto, sans-serif;
+    font-size: medium;
+    border-color: #092686;
+    border-radius: 6%;
+    color: black;
+    background: transparent;
+    background-image: -webkit-linear-gradient(45deg, #10228a 50%, transparent 50%);
+    background-image: linear-gradient(45deg, #092686 50%, transparent 50%);
+    background-position: 100%;
+    background-size: 400%;
+    -webkit-transition: background 300ms ease-in-out;
+    transition: background 300ms ease-in-out;
+}
+
+.registro_submit {
+    @extend .submit;
+    height: 2.5em;
+}
+
+.soporte_submit {
+    @extend .submit;
+    height: 2.4em;
+}
+
+@mixin contacto-boxes($width, $height) {
+    height: $height;
+    width: $width;
+}
+
+.contacto-nombre, .contacto-mail {
+    @include contacto-boxes(auto, 20vw);
+}

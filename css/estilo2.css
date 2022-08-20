@@ -297,7 +297,7 @@ h1, p {
         margin-right: 0.7em;
     }
     
-    .registro__submit {
+    .submit, .soporte_submit, .registro_submit {
         width: 10em;
         height: 2.3em;
         font-family: Roboto, sans-serif;
@@ -312,10 +312,15 @@ h1, p {
         background-size: 400%;
         -webkit-transition: background 300ms ease-in-out;
         transition: background 300ms ease-in-out;
-    }
-    .registro__submit:hover {
-      background-position: 0;
-    }
+      }
+      
+      .registro_submit {
+        height: 2.5em;
+      }
+      
+      .soporte_submit {
+        height: 2.4em;
+      }
     
     .titulos {
         font-size: 2em;
@@ -385,14 +390,10 @@ h1, p {
 
 
 
-    .contacto-nombre {
-        width: 20vw;
-    }
-    
-    .contacto-mail {
-
-        width: 20vw;
-    }
+    .contacto-nombre, .contacto-mail {
+        height: 20vw;
+        width: auto;
+      }
 
     .contacto-text {
         width: 50vw;
@@ -428,3 +429,4 @@ h1, p {
     }
 
 }
+/*# sourceMappingURL=estilo2.css.map */
