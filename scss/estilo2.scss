@@ -1,0 +1,19 @@
+@import "navbar";
+
+:root {
+    font-family: Roboto, sans-serif;
+    font-size: large;
+}
+
+$titulos: (
+    size: 2em,
+    fontWeight: 600,
+    lineHeight: 2em,
+);
+
+
+
+@media (min-width: 768px) {
+
+    
+}
